@@ -9,12 +9,16 @@ public class Hotel {
 	public Hotel() {
 		
 		lista = new ArrayList<Habitaciones>();
-		lista.add(new Habitaciones(101,"matrimonio", true, 40.0f,true));
-		lista.add(new Habitaciones(102,"matrimonio", false, 30.0f,true));
-		lista.add(new Habitaciones(103,"matrimonio", false, 30.0f,true));
+		lista.add(new Habitaciones(101,"matrimonio", true, 60.5f,true));
+		lista.add(new Habitaciones(102,"matrimonio", false, 37.0f,true));
+		lista.add(new Habitaciones(103,"matrimonio", false, 29.9f,true));
 		lista.add(new Habitaciones(104,"individuales", true, 25.0f,true));
 		lista.add(new Habitaciones(105,"individuales", false, 20.0f,true));
 		lista.add(new Habitaciones(106,"individuales", false, 20.0f,true));
+		
+		lista.add(new Habitaciones(107,"individuales", false, 26.2f,false));
+		lista.add(new Habitaciones(108,"matrimonio", true, 12.0f,true));
+		lista.add(new Habitaciones(109,"individuales", true, 20.0f,false));
 		
 	}
 	
